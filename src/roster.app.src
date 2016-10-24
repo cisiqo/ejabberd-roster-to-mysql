@@ -1,0 +1,12 @@
+{application, roster,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { roster_app, []}},
+  {env, []}
+ ]}.
